@@ -1,0 +1,31 @@
+// Mixins Here
+
+.nav1() {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav2() {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button (@height, @width) {
+    height: @height;
+    width: @width;
+    color: white;
+    font-size: 1.8rem;
+    background-color: @btn-bg-color;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        background-color: rgb(255, 255, 255);
+        color: @btn-bg-color;
+    }
+}
+
