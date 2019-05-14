@@ -326,24 +326,26 @@ footer {
     color: #22283A;
   }
 }
-.home .walk .walk-img {
+.home .walk .lambda {
   width: 46%;
   margin-left: 4%;
 }
 @media only screen and (max-width: 500px) {
-  .home .walk .walk-img {
+  .home .walk .lambda {
     width: 100%;
     margin: 9 auto;
   }
 }
-.home .walk .walk-img img {
-  width: 100%;
-  height: auto;
+.home .walk .lambda img {
+  width: 200px;
+  height: 200px;
   border-radius: 10px;
 }
 .dj-image {
   margin: 0 auto;
   background-size: 50% 50%;
+  height: 200px;
+  width: 200px;
 }
 .DP-image {
   background-size: 50% 50%;
