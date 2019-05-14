@@ -167,7 +167,7 @@ p {
 }
 nav {
   width: 100%;
-  background-color: lightgray;
+  background-color: greenyellow;
   z-index: 1;
   position: fixed;
 }
@@ -185,8 +185,7 @@ nav .nav {
   }
 }
 nav .nav h1 {
-  font-size: 5rem;
-
+  font-size: 3.5rem;
   margin: 20px 0;
 }
 nav .nav .navigation {
@@ -210,12 +209,12 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.home .intro img {
-  border-radius: 5px 5px;
+.home .intro .main-header {
+  border-radius: 10px 5px;
   padding-top: 100px;
 }
 @media only screen and (max-width: 500px) {
-  .home .intro img {
+  .home .intro .main-header {
     width: 100%;
   }
 }
@@ -225,29 +224,29 @@ footer {
 .home .intro p {
   padding: 0 15px;
 }
-.home .space-images {
+.home .main-image {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
 }
-.home .space-images img {
+.home .main-image img {
   width: 28%;
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
 }
 @media only screen and (max-width: 500px) {
-  .home .space-images img {
+  .home .main-image img {
     width: 100%;
   }
 }
 @media only screen and (max-width: 500px) {
-  .home .space-images .sky {
+  .home .main-image .sky {
     display: none;
   }
 }
 @media only screen and (max-width: 500px) {
-  .home .space-images .launch {
+  .home .main-image .launch {
     display: none;
   }
 }
@@ -340,9 +339,15 @@ footer {
   height: auto;
   border-radius: 10px;
 }
-.contact-image {
+.dj-image {
   margin: 0 auto;
-  padding-right: 50%;
+  height: 200px;
+  width: 300px;
+}
+.DP-image {
+  margin: 0 auto;
+  height: 200px;
+  width: 300px;
 }
 form {
   margin: 0 auto;
