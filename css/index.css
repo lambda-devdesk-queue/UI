@@ -343,12 +343,12 @@ footer {
 }
 .dj-image {
   margin: 0 auto;
-  height: 200px;
-  width: 300px;
+  background-size: 50% 50%;
+  border: 2px solid black;
 }
 .DP-image {
-  height: 50px;
-  width: 50px;
+  background-size: 50% 50%;
+  border: 2px solid black;
 }
 form {
   margin: 0 auto;
@@ -367,7 +367,7 @@ label {
 }
 input,
 textarea {
-  font: 1em sans-serif;
+  font: 4em sans-serif;
   width: 100px;
   box-sizing: border-box;
   border: 1px solid black;
