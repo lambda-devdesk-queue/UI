@@ -287,11 +287,25 @@ footer {
     display: none;
   }
 }
-.home .app-features {
+.home .mid-content-header h2 {
+  color: solid black;
+}
+.home .mid-content {
   display: flex;
-  flex-direction: column;
-  width: 100%;
+  margin: 0 2% 20px;
+  justify-content: space-around;
   margin-top: 20px;
+  border: 2px solid black;
+  border-spacing: 5px;
+}
+.home .app-features {
+  padding-right: 4%;
+}
+.home p {
+  color: solid black;
+}
+.home :last-child {
+  padding-right: 0;
 }
 .home .visit-planets {
   padding: 15px;
