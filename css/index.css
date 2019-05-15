@@ -167,7 +167,7 @@ p {
 }
 nav {
   width: 100%;
-  background-color: lightgrey;
+  background-color: lightgray;
   z-index: 1;
   position: fixed;
 }
@@ -343,9 +343,8 @@ footer {
 }
 .dj-image {
   margin: 0 auto;
+  margin-bottom: 10px;
   background-size: 50% 50%;
-  height: 200px;
-  width: 200px;
 }
 .DP-image {
   background-size: 50% 50%;
