@@ -189,15 +189,17 @@ nav .nav h3 {
   margin: 8px 0;
 }
 nav .nav .navigation {
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: space-evenly;
   padding: 5px 0;
 }
 nav .nav .navigation a {
-  text-decoration: none;
   color: black;
   font-size: 2rem;
+}
+nav .nav .navigation a:hover {
+  text-decoration: greenyellow;
 }
 footer {
   color: #22283B;
