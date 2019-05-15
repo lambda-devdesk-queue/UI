@@ -160,7 +160,7 @@ p {
   width: 100%;
   margin: 0 auto;
 }
-.container-about {
+.container-contact {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
@@ -185,24 +185,24 @@ nav .nav {
   }
 }
 nav .nav h3 {
-  font-size: 2.5rem;
-  margin: 10px 0;
+  font-size: 3rem;
+  margin: 8px 0;
 }
 nav .nav .navigation {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-  padding: 10px 0;
+  padding: 5px 0;
 }
 nav .nav .navigation a {
   text-decoration: none;
   color: black;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 footer {
   color: #22283B;
-  background: #f4f4f4;
-  padding: 20px 0;
+  background: lightgray;
+  padding: 10px 0;
   border: 1px double #e0e0e0;
   border-radius: 10px;
   display: flex;
@@ -297,9 +297,9 @@ footer {
 .home .lambda .lambda-text .btn {
   height: 50px;
   width: 100px;
-  color: white;
+  color: black;
   font-size: 1.8rem;
-  background-color: #22283A;
+  background-color: #37f376;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -307,15 +307,15 @@ footer {
 }
 .home .lambda .lambda-text .btn:hover {
   background-color: #ffffff;
-  color: #22283A;
+  color: #37f376;
 }
 @media only screen and (max-width: 500px) {
   .home .lambda .lambda-text .btn {
     height: 70px;
     width: 100%;
-    color: white;
+    color: black;
     font-size: 1.8rem;
-    background-color: #22283A;
+    background-color: #37f376;
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -323,7 +323,7 @@ footer {
   }
   .home .lambda .lambda-text .btn:hover {
     background-color: #ffffff;
-    color: #22283A;
+    color: #37f376;
   }
 }
 .home .lambda .lambda {
