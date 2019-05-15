@@ -184,9 +184,9 @@ nav .nav {
     width: 80%;
   }
 }
-nav .nav h1 {
-  font-size: 3.5rem;
-  margin: 20px 0;
+nav .nav h3 {
+  font-size: 2.5rem;
+  margin: 10px 0;
 }
 nav .nav .navigation {
   width: 100%;
@@ -261,7 +261,7 @@ footer {
 .home .visit-planets p {
   margin-top: 13px;
 }
-.home .walk {
+.home .lambda {
   margin-top: 60px;
   border-top: 1px solid #dee2e6;
   padding: 50px 60px;
@@ -269,32 +269,32 @@ footer {
   justify-content: center;
 }
 @media only screen and (max-width: 500px) {
-  .home .walk {
+  .home .lambda {
     display: flex;
     flex-direction: column-reverse;
     padding: 20px;
   }
 }
-.home .walk .walk-text {
+.home .lambda .lambda-text {
   width: 50%;
 }
 @media only screen and (max-width: 500px) {
-  .home .walk .walk-text {
+  .home .lambda .lambda-text {
     width: 100%;
   }
 }
-.home .walk .walk-text h3 {
+.home .lambda .lambda-text h3 {
   margin-bottom: 10px;
 }
 @media only screen and (max-width: 500px) {
-  .home .walk .walk-text h3 {
+  .home .lambda .lambda-text h3 {
     margin-top: 20px;
   }
 }
-.home .walk .walk-text p {
+.home .lambda .lambda-text p {
   margin-bottom: 26px;
 }
-.home .walk .walk-text .btn {
+.home .lambda .lambda-text .btn {
   height: 50px;
   width: 100px;
   color: white;
@@ -305,12 +305,12 @@ footer {
   align-items: center;
   justify-content: center;
 }
-.home .walk .walk-text .btn:hover {
+.home .lambda .lambda-text .btn:hover {
   background-color: #ffffff;
   color: #22283A;
 }
 @media only screen and (max-width: 500px) {
-  .home .walk .walk-text .btn {
+  .home .lambda .lambda-text .btn {
     height: 70px;
     width: 100%;
     color: white;
@@ -321,22 +321,22 @@ footer {
     align-items: center;
     justify-content: center;
   }
-  .home .walk .walk-text .btn:hover {
+  .home .lambda .lambda-text .btn:hover {
     background-color: #ffffff;
     color: #22283A;
   }
 }
-.home .walk .lambda {
+.home .lambda .lambda {
   width: 46%;
   margin-left: 4%;
 }
 @media only screen and (max-width: 500px) {
-  .home .walk .lambda {
+  .home .lambda .lambda {
     width: 100%;
     margin: 9 auto;
   }
 }
-.home .walk .lambda img {
+.home .lambda .lambda img {
   width: 200px;
   height: 200px;
   border-radius: 10px;
