@@ -1,4 +1,4 @@
-// Navigation code here
+// Navigation code for home page
 
 nav {
     width: 100%;
@@ -7,7 +7,7 @@ nav {
     position: fixed;
 
     .nav {
-        width: 800px;
+        width: 850px;
         margin: 0 auto;
         .nav2;
 
@@ -21,6 +21,45 @@ nav {
         }
 
         .navigation {
+            width: 80%;
+            .nav1;
+            padding: 5px 0;
+                
+                a {
+                    color: black;
+                    font-size: 2rem;
+                }
+
+                a:hover {
+                    text-decoration: underline;
+                    background-color: greenyellow;
+                }
+        }
+
+    }
+}
+
+// navigation code for About Us page here
+
+nav {
+    width: 100%;
+    background-color: lightgray;
+
+    .nav-about {
+        width: 850px;
+        margin: 0 auto;
+        .nav2;
+
+        @media @mobile {
+            width: 80%;
+        }
+
+        h3 {
+            font-size: 4rem;
+            margin: 8px 0;
+        }
+
+        .navigation-about {
             width: 80%;
             .nav1;
             padding: 5px 0;
