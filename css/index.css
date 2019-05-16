@@ -106,6 +106,7 @@ section {
 }
 body {
   line-height: 1;
+  width: 100%;
 }
 ol,
 ul {
@@ -160,7 +161,7 @@ p {
   width: 100%;
   margin: 0 auto;
 }
-.container-contact {
+.container-about {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
@@ -170,9 +171,10 @@ nav {
   background-color: lightgray;
   z-index: 1;
   position: fixed;
+  border: 2px solid red;
 }
 nav .nav {
-  width: 850px;
+  width: 800px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -207,7 +209,7 @@ nav {
   background-color: lightgray;
 }
 nav .nav-about {
-  width: 850px;
+  width: 800px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
