@@ -41,12 +41,18 @@
 
     table {
       width: 100%;
+      border-collapse: collapse;
     }
-
-    th {
-      height: 50px;
+      th, td {
+      padding: 8px;
       text-align: center;
     }
+      tr:nth-child(even){background-color: #258EA6}
+
+      th {
+        background-color: #258EA6;
+        color: white;
+      }
 
     .logo {
       @media @mobile {
