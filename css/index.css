@@ -287,21 +287,13 @@ footer {
     width: 100%;
   }
 }
-.home .main-image table {
-  width: 100%;
+.home .main-image .table {
   border-collapse: collapse;
 }
-.home .main-image th,
-.home .main-image td {
-  padding: 8px;
-  text-align: center;
-}
-.home .main-image tr:nth-child(even) {
-  background-color: #258EA6;
-}
-.home .main-image th {
-  background-color: #258EA6;
-  color: white;
+.home .main-image .table table,
+.home .main-image .table td,
+.home .main-image .table th {
+  border: 1px solid black;
 }
 @media only screen and (max-width: 500px) {
   .home .main-image .logo {
@@ -382,33 +374,37 @@ footer {
 .home .lambda .lambda-text .btn {
   height: 50px;
   width: 100px;
-  color: white;
+  color: black;
   font-size: 1.8rem;
-  background-color: #258EA6;
+  background-color: #37f376;
   border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #258EA6;
+  color: white;
 }
 .home .lambda .lambda-text .btn:hover {
-  background-color: white;
-  color: #258EA6;
+  background-color: #140606;
+  color: #37f376;
 }
 @media only screen and (max-width: 500px) {
   .home .lambda .lambda-text .btn {
     height: 70px;
     width: 100%;
-    color: white;
+    color: black;
     font-size: 1.8rem;
-    background-color: #258EA6;
+    background-color: #37f376;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #258EA6;
+    color: white;
   }
   .home .lambda .lambda-text .btn:hover {
-    background-color: white;
-    color: #258EA6;
+    background-color: #140606;
+    color: #37f376;
   }
 }
 .home .lambda .lambda {
