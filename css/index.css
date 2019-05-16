@@ -282,6 +282,13 @@ footer {
     width: 100%;
   }
 }
+.home .main-image table {
+  width: 100%;
+}
+.home .main-image th {
+  height: 50px;
+  text-align: center;
+}
 @media only screen and (max-width: 500px) {
   .home .main-image .logo {
     display: none;
@@ -302,6 +309,10 @@ footer {
   margin-top: 20px;
   border: 2px solid black;
   border-spacing: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .home .app-features {
   padding-right: 4%;
