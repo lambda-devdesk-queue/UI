@@ -205,7 +205,7 @@ nav .nav .navigation a {
 }
 nav .nav .navigation a:hover {
   text-decoration: underline;
-  background-color: greenyellow;
+  background-color: #258EA6;
 }
 nav {
   width: 100%;
@@ -240,7 +240,7 @@ nav .nav-about .navigation-about a {
 }
 nav .nav-about .navigation-about a:hover {
   text-decoration: underline;
-  background-color: greenyellow;
+  background-color: #258EA6;
 }
 footer {
   color: #22283B;
@@ -368,33 +368,33 @@ footer {
 .home .lambda .lambda-text .btn {
   height: 50px;
   width: 100px;
-  color: black;
+  color: white;
   font-size: 1.8rem;
-  background-color: #37f376;
+  background-color: #258EA6;
   border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .home .lambda .lambda-text .btn:hover {
-  background-color: #140606;
-  color: #37f376;
+  background-color: white;
+  color: #258EA6;
 }
 @media only screen and (max-width: 500px) {
   .home .lambda .lambda-text .btn {
     height: 70px;
     width: 100%;
-    color: black;
+    color: white;
     font-size: 1.8rem;
-    background-color: #37f376;
+    background-color: #258EA6;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .home .lambda .lambda-text .btn:hover {
-    background-color: #140606;
-    color: #37f376;
+    background-color: white;
+    color: #258EA6;
   }
 }
 .home .lambda .lambda {
@@ -411,7 +411,6 @@ footer {
   width: 200px;
   height: 200px;
   border-radius: 10px;
-  border: 2px solid orange;
 }
 .dj-image {
   margin: 0 auto;
