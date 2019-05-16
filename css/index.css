@@ -287,14 +287,6 @@ footer {
     width: 100%;
   }
 }
-.home .main-image .table {
-  border-collapse: collapse;
-}
-.home .main-image .table table,
-.home .main-image .table td,
-.home .main-image .table th {
-  border: 1px solid black;
-}
 @media only screen and (max-width: 500px) {
   .home .main-image .logo {
     display: none;
@@ -421,6 +413,19 @@ footer {
   width: 200px;
   height: 200px;
   border-radius: 10px;
+}
+.table {
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  justify-content: center;
+}
+table,
+td,
+th {
+  border: 1px solid black;
+  height: 40px;
 }
 .dj-image {
   margin: 0 auto;
