@@ -270,6 +270,9 @@ footer {
 .home .students {
   margin-top: 40px;
 }
+.home .bottom-content-lambda {
+  margin-top: 40px;
+}
 .home .main-image {
   display: flex;
   flex-wrap: wrap;
@@ -305,12 +308,15 @@ footer {
   margin: 0 2% 20px;
   justify-content: space-around;
   margin-top: 20px;
+  background-color: #258EA6;
+  color: white;
   border: 2px solid black;
   border-spacing: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
+  text-decoration: s;
 }
 .home .app-features {
   padding-right: 4%;
