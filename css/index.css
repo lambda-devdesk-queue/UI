@@ -176,10 +176,6 @@ nav {
   justify-content: space-around;
   background-color: lightgray;
 }
-nav .main-header {
-  width: 200px;
-  height: 200px;
-}
 nav .nav {
   width: 800px;
   margin: 0 auto;
@@ -265,11 +261,14 @@ footer {
     width: 100%;
   }
 }
-.home .intro h2 {
+.home .intro h3 {
   padding: 15px;
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .students {
+  margin-top: 40px;
 }
 .home .main-image {
   display: flex;
@@ -288,17 +287,18 @@ footer {
   }
 }
 @media only screen and (max-width: 500px) {
-  .home .main-image .logo {
+  .home .main-image .collaboration {
     display: none;
   }
 }
 @media only screen and (max-width: 500px) {
-  .home .main-image .dev {
+  .home .main-image .agent {
     display: none;
   }
 }
 .home .mid-content-header h2 {
   color: solid black;
+  margin-top: 50px;
 }
 .home .mid-content {
   display: flex;
@@ -321,15 +321,6 @@ footer {
 .home :last-child {
   padding-right: 0;
 }
-.home .visit-planets {
-  padding: 15px;
-}
-.home .visit-planets h3 {
-  margin-top: 11px;
-}
-.home .visit-planets p {
-  margin-top: 13px;
-}
 .home .lambda {
   margin-top: 60px;
   border-top: 1px solid #dee2e6;
@@ -346,6 +337,7 @@ footer {
 }
 .home .lambda .lambda-text {
   width: 50%;
+  margin-right: 50px;
 }
 @media only screen and (max-width: 500px) {
   .home .lambda .lambda-text {
@@ -409,9 +401,7 @@ footer {
     margin: 9 auto;
   }
 }
-.home .lambda .lambda lambda-img {
-  width: 200px;
-  height: 200px;
+.home .lambda .lambda .lambda-img {
   border-radius: 10px;
 }
 .table {
