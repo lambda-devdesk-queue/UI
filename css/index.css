@@ -375,6 +375,7 @@ footer {
   justify-content: center;
   background-color: #258EA6;
   color: white;
+  cursor: pointer;
 }
 .home .lambda .lambda-text .btn:hover {
   background-color: #140606;
@@ -393,10 +394,12 @@ footer {
     justify-content: center;
     background-color: #258EA6;
     color: white;
+    cursor: pointer;
   }
   .home .lambda .lambda-text .btn:hover {
     background-color: #140606;
     color: #37f376;
+    cursor: pointer;
   }
 }
 .home .lambda .lambda {
@@ -416,7 +419,6 @@ footer {
 .table {
   border-collapse: collapse;
   border-spacing: 0;
-  width: 300px;
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 2rem;
@@ -424,9 +426,14 @@ footer {
 table,
 td,
 th {
-  border: 5px solid black;
+  border: 2px dotted black;
   height: 40px;
   justify-content: center;
+  width: 650px;
+}
+th {
+  background-color: #258EA6;
+  color: white;
 }
 .container-about {
   max-width: 100%;
