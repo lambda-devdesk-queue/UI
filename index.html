@@ -141,23 +141,20 @@
 
     </div>
 
-    <!-- added onload and onunload JS -->
+    <!-- added onload and onunload function -->
 
-    <o class="onload"></o>
+    <p class="onload"></p>
     <script>
         function checkCookies(){
-            const text = "";
+            var text = "";
             if (navigator.cookieEnabled == true){
                 text = "Cookies are enabled.";
             }   else {
                 text = "Cookies are not enabled.";
             }
-            document.getElementByClassName(".onload").innerHTML = text;
+            document.getElementsByClassName(".onload").innerHTML = text;
         }
     </script>
-
-
-
 
 </body>
 
