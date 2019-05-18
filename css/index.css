@@ -105,7 +105,7 @@ section {
   display: block;
 }
 body {
-  line-height: 1;
+  line-height: 1.6;
 }
 ol,
 ul {
@@ -152,22 +152,22 @@ p {
   line-height: 1.8;
 }
 .container {
-  max-width: 900px;
+  max-width: 950px;
   width: 100%;
   margin: 0 auto;
 }
 .container-about {
-  max-width: 900px;
+  max-width: 950px;
   display: flex;
   width: 100%;
   margin: 0 auto;
 }
-.students {
-  margin-bottom: 20px;
-}
-.students h2{
+.students h2 {
   margin-left: 10px;
-} 
+}
+.students p {
+  margin-top: 10px;
+}
 .mid-content-header h2 {
   margin-left: 10px;
 }
@@ -319,15 +319,15 @@ footer {
   display: flex;
   margin: 0 2% 20px;
   justify-content: space-around;
-  margin-top: 2px;
+  margin-top: 20px;
   background-color: #258EA6;
   color: white;
   border: 2px solid black;
   border-spacing: 5px;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .home .app-features {
   padding-right: 4%;
@@ -390,6 +390,7 @@ footer {
   background-color: #140606;
   color: #37f376;
   cursor: pointer;
+
 }
 @media only screen and (max-width: 500px) {
   .home .lambda .lambda-text .btn {
@@ -405,11 +406,13 @@ footer {
     background-color: #258EA6;
     color: white;
     cursor: pointer;
+
   }
   .home .lambda .lambda-text .btn:hover {
     background-color: #140606;
     color: #37f376;
     cursor: pointer;
+
   }
 }
 .home .lambda .lambda {
@@ -431,9 +434,7 @@ footer {
   border-spacing: 0;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 10px;
   font-size: 2rem;
-  
 }
 table,
 td,
@@ -441,13 +442,16 @@ th {
   border: 2px dotted black;
   height: 40px;
   justify-content: center;
-  width: 650px;
   text-align: center;
+  width: 600px;
+
 }
 th {
   background-color: #258EA6;
   color: white;
 }
-.dp-expert {
+.gurus {
+  display: flex;
+  width: 100%;
   flex-direction: row;
 }
