@@ -156,20 +156,12 @@ p {
   line-height: 1.4;
 }
 .container {
-  max-width: 1000px;
+  max-width: 800px;
   width: 100%;
   margin: 0 auto;
 }
-.container-about {
-  max-width: 1000px;
-  width: 100%;
-  margin: 0 auto;
-}
-.students h2 {
-  margin-bottom: 20px;
-  margin-left: 10px;
-}
-body {
+.container-contact {
+  max-width: 800px;
   width: 100%;
   margin: 0 auto;
 }
@@ -273,15 +265,21 @@ footer {
 }
 .home .students {
   margin-top: 40px;
+  align-content: center;
 }
-.home .bottom-content-lambda h2 {
+.home .bottom-content-lambda {
   margin-top: 40px;
-  margin-left: 10px;
+}
+@media only screen and (max-width: 500px) {
+  .home .bottom-content-lambda {
+    width: 100%;
+  }
 }
 .home .main-image {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  margin-top: 40px;
 }
 .home .main-image img {
   width: 28%;
@@ -304,15 +302,9 @@ footer {
     display: none;
   }
 }
-@media only screen and (max-width: 500px) {
-  .bottom-content-lambda {
-    display: flex;
-  }
-}
 .home .mid-content-header h2 {
   color: solid black;
   margin-top: 50px;
-  margin-left: 10px;
 }
 .home .mid-content {
   display: flex;
@@ -327,7 +319,6 @@ footer {
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  text-decoration: s;
 }
 .home .app-features {
   padding-right: 4%;
@@ -384,7 +375,6 @@ footer {
   justify-content: center;
   background-color: #258EA6;
   color: white;
-  cursor: pointer;
 }
 .home .lambda .lambda-text .btn:hover {
   background-color: #140606;
@@ -421,26 +411,28 @@ footer {
 }
 .home .lambda .lambda .lambda-img {
   border-radius: 10px;
+  display: flex;
 }
 .table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 300px;
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 2rem;
-  align-content: center;
 }
 table,
 td,
 th {
-  border: 2px dotted black;
-  height: 10px;
-  margin: 0 2% 20px;
-  width: 700px;
-  text-align: center;
+  border: 5px solid black;
+  height: 40px;
+  justify-content: center;
 }
-th {
-  background-color: #258EA6;
-  color: white;
+.container-about {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
 }
-
-tr:hover {background-color: yellowgreen;}
-tr:nth-child(even) {background-color: #f2f2f2;}
+.dp-expert {
+  flex-direction: row;
+}
