@@ -373,6 +373,7 @@ footer {
   justify-content: center;
   background-color: #258EA6;
   color: white;
+  cursor: pointer;
 }
 .home .lambda .lambda-text .btn:hover {
   background-color: #140606;
