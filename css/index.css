@@ -423,15 +423,5 @@ th {
   border: 1px solid black;
   height: 40px;
 }
-.dj-image {
-  margin: 0 auto;
-  margin-bottom: 10px;
-  background-size: 50% 50%;
-}
-.DP-image {
-  background-size: 50% 50%;
-}
-.container-about {
-  display: flex;
-  justify-content: center;
-}
+
+
