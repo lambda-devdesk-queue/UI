@@ -122,10 +122,6 @@ q:after {
   content: '';
   content: none;
 }
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
 * {
   box-sizing: border-box;
 }
@@ -156,14 +152,27 @@ p {
   line-height: 1.4;
 }
 .container {
-  max-width: 800px;
+  max-width: 900px;
   width: 100%;
   margin: 0 auto;
 }
-.container-contact {
-  max-width: 800px;
+.container-about {
+  max-width: 900px;
+  display: flex;
   width: 100%;
   margin: 0 auto;
+}
+.students {
+  margin-bottom: 20px;
+}
+.students h2{
+  margin-left: 10px;
+} 
+.mid-content-header h2 {
+  margin-left: 10px;
+}
+.bottom-content-lambda h2 {
+  margin-left: 10px;
 }
 nav {
   width: 100%;
@@ -322,8 +331,6 @@ footer {
 }
 .home .app-features {
   padding-right: 4%;
-  margin-right: 20px;
-
 }
 .home p {
   color: solid black;
@@ -424,24 +431,22 @@ footer {
   border-spacing: 0;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: 10px;
   font-size: 2rem;
+  
 }
 table,
 td,
 th {
   border: 2px dotted black;
   height: 40px;
+  justify-content: center;
   width: 650px;
   text-align: center;
 }
 th {
   background-color: #258EA6;
   color: white;
-}
-.container-about {
-  max-width: 100%;
-  margin: 0 auto;
-  display: flex;
 }
 .dp-expert {
   flex-direction: row;
