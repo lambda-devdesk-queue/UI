@@ -156,12 +156,12 @@ p {
   line-height: 1.4;
 }
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   width: 100%;
   margin: 0 auto;
 }
-.container-contact {
-  max-width: 800px;
+.container-about {
+  max-width: 1000px;
   width: 100%;
   margin: 0 auto;
 }
