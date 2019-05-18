@@ -17,7 +17,6 @@
 </head>
 
 <body onload = "checkCookies()">
-<p id="demo"></p>
     <!-- navigation code here -->
 
     <nav>
@@ -128,12 +127,38 @@
             </div>
         </section>
 
+
+        <!-- added getFullYear method and fullDate-->
         <footer>
-            <p class="copyright">&copy; DevDeskQue </p>
+            <p>&copy; DevDeskQue</p>
+            <p id="date"></p>
         </footer>
+        <script>
+            const d = new Date();
+            document.getElementById("date").innerHTML = d.getFullYear();
+        </script>
         <script>document.write(Date());</script>
 
     </div>
+
+    <!-- added onload and onunload JS -->
+
+    <o class="onload"></o>
+    <script>
+        function checkCookies(){
+            const text = "";
+            if (navigator.cookieEnabled == true){
+                text = "Cookies are enabled.";
+            }   else {
+                text = "Cookies are not enabled.";
+            }
+            document.getElementByClassName(".onload").innerHTML = text;
+        }
+    </script>
+
+
+
+
 </body>
 
 </html>

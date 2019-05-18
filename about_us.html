@@ -55,8 +55,13 @@
     </section>
 
     <footer>
-        <p>&copy; DevDeskQue 2019</p>
+        <p>&copy; DevDeskQue</p>
+        <p id="date"></p>
     </footer>
+    <script>
+        const d = new Date();
+        document.getElementById("date").innerHTML = d.getFullYear();
+    </script>
     <script>document.write(Date());</script>
    
 </body>
