@@ -27,4 +27,6 @@ console.log(displayDate)
 
 const d = new Date();
 d.setFullYear(2019);
-document.getElementById("demo").innerHTML = d;
+document.getElementById("copyright").innerHTML = d;
+
+console.log(d);
