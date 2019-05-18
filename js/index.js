@@ -24,3 +24,7 @@ function displayDate() {
 }
 
 console.log(displayDate)
+
+const d = new Date();
+d.setFullYear(2019);
+document.getElementById("demo").innerHTML = d;
