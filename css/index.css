@@ -148,7 +148,7 @@ h3 {
   font-size: 2.8rem;
 }
 p {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.8;
 }
 .container {
@@ -319,15 +319,15 @@ footer {
   display: flex;
   margin: 0 2% 20px;
   justify-content: space-around;
-  margin-top: 20px;
+  margin-top: 2px;
   background-color: #258EA6;
   color: white;
   border: 2px solid black;
   border-spacing: 5px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .home .app-features {
   padding-right: 4%;
