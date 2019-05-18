@@ -437,5 +437,10 @@ th {
   width: 700px;
   text-align: center;
 }
+th {
+  background-color: #258EA6;
+  color: white;
+}
 
-
+tr:hover {background-color: yellowgreen;}
+tr:nth-child(even) {background-color: #f2f2f2;}
