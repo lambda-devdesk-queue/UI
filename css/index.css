@@ -143,6 +143,7 @@ h5 {
 }
 h2 {
   font-size: 3.2rem;
+
 }
 h3 {
   font-size: 2.8rem;
@@ -451,12 +452,11 @@ th {
   color: white;
 } 
 .container-about {
-  max-width: 100%;
-  margin: 0 auto;
-  display: flex;
+  width: 100%;
 }
 .gurus {
   display: flex;
-  width: 100%;
+  margin: 0 2% 20px;
   flex-direction: row;
+  justify-content: space-around;
 }
