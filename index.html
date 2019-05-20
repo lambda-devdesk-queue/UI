@@ -17,19 +17,17 @@
 </head>
 
 <body onload = "checkCookies()">
-<p id="demo"></p>
     <!-- navigation code here -->
 
     <nav>
+        <img src="img/LOGO3.png" style="width:200px;">
         <div class="nav">
             <div class="main-header">
-                <img src="img/LOGO2.png">
-            </div>
-            <h3>DevDeskQue is an app that allows Lambda students to submit a ticket to escalate any type of question, to the help desk!</h3>
+            <h3>DevDeskQue is an app that allows Lambda students to submit a ticket to escalate any type of question, to the help desk!</h3></div>
                 <div class="navigation">
                     <a href='#'>Home</a>
                     <a href='about_us.html'>About Us</a>
-                    <a href='#'>Log-In</a>
+                    <a href="https://youthful-thompson-dec568.netlify.com/">Log-In</a>
                 </div>
         </div>
     </nav>
@@ -46,15 +44,15 @@
             <p>Students at Lambda School need a place where they can escalate their concerns and receive help.  DevDeskQue allows an admin to manage help desk tickets that come in from Lambda School Students.  In addition, it allows students (2nd user type) to submit a ticket, categorize it and post it to the help channel. </p>
         </header>
 
+        <div class="mid-content-header">
+            <h2>Reasons to choose DevDeskQue</h2>
+        </div>
+
         <section class="main-image">
             <img src="img/reporting-tool.jfif" class="reporting" alt="report">
             <img src="img/collaborate.jfif" class="collaboration" alt="work together">
             <img src="img/expert-agent.png" class="agent" alt="expert agent">
         </section>
-
-        <div class="mid-content-header">
-            <h2>Reasons to choose DevDeskQue</h2>
-        </div>
         
         <section class="mid-content">
             <div class="app-features">
@@ -75,38 +73,38 @@
             <h2>Why Lambda students love using DevDeskQue app ...</h2>
         </div>
         <section class="table">
-                <table>
-                    <tr>
-                        <th>Criteria</th>
-                        <th>DevDeskQue</th>
-                        <th>ZenDesk</th>
-                    </tr>
-                    <tr>
-                        <td>Overall Rating</td>
-                        <td>4.5</td>
-                        <td>4.2</td>
-                    </tr>
-                    <tr>
-                        <td>Meets Requirements</td>
-                        <td>8.7</td>
-                        <td>8.6</td>
-                    </tr>
-                    <tr>
-                        <td>Ease of use</td>
-                        <td>9.1</td>
-                        <td>8.7</td>
-                    </tr>
-                    <tr>
-                        <td>Ease of Admin</td>
-                        <td>9.0</td>
-                        <td>8.3</td>
-                    </tr>
-                    <tr>
-                        <td>Quality of support</td>
-                        <td>9.8</td>
-                        <td>8.8</td>
-                    </tr>
-                </table>
+            <table class="table-features">
+                <tr>
+                    <th>Criteria</th>
+                    <th>DevDeskQue</th>
+                     <th>ZenDesk</th>
+                </tr>
+                <tr>
+                    <td>Overall Rating</td>
+                    <td>4.5</td>
+                    <td>4.2</td>
+                </tr>
+                <tr>
+                    <td>Meets Requirements</td>
+                    <td>8.7</td>
+                    <td>8.6</td>
+                </tr>
+                <tr>
+                    <td>Ease of use</td>
+                    <td>9.1</td>
+                     <td>8.7</td>
+                </tr>
+                <tr>
+                    <td>Ease of Admin</td>
+                    <td>9.0</td>
+                     <td>8.3</td>
+                </tr>
+                <tr>
+                    <td>Quality of support</td>
+                    <td>9.8</td>
+                    <td>8.8</td>
+                </tr>
+            </table>
         </section>
 
         <section class="lambda">
@@ -119,9 +117,10 @@
 
                 <p>RESPONSIVE - we guarantee every ticket received will be reviewed, worked on and completed within 24 hrs</p>
 
+                <a href="https://youthful-thompson-dec568.netlify.com/">
                 <div class="btn">
                     Log-In
-                </div>
+                </div></a>
             </div>
 
             <div class="lambda-img">
@@ -129,12 +128,35 @@
             </div>
         </section>
 
+
+        <!-- added getFullYear method and fullDate-->
         <footer>
-            <p>&copy; DevDeskQue 2019</p>
+            <p>&copy; DevDeskQue</p>
+            <p id="date"></p>
         </footer>
+        <script>
+            const d = new Date();
+            document.getElementById("date").innerHTML = d.getFullYear();
+        </script>
         <script>document.write(Date());</script>
 
     </div>
+
+    <!-- added onload and onunload function -->
+
+    <p class="onload"></p>
+    <script>
+        function checkCookies(){
+            var text = "";
+            if (navigator.cookieEnabled == true){
+                text = "Cookies are enabled.";
+            }   else {
+                text = "Cookies are not enabled.";
+            }
+            document.getElementsByClassName(".onload").innerHTML = text;
+        }
+    </script>
+
 </body>
 
 </html>
