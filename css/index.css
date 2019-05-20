@@ -169,6 +169,9 @@ p {
 .students h2:hover {
   color: yellowgreen;
 }
+.mid-content-header h2:hover {
+  color: yellowgreen;
+}
 nav {
   width: 100%;
   display: flex;
@@ -460,5 +463,4 @@ th {
   display: flex;
   margin: 0 2% 20px;
   flex-direction: row;
-  justify-content: space-around;
 }
