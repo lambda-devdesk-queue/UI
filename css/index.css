@@ -148,16 +148,16 @@ h3 {
   font-size: 2.8rem;
 }
 p {
-  font-size: 1.6rem;
-  line-height: 1.4;
+  font-size: 1.8rem;
+  line-height: 1.6;
 }
 .container {
-  max-width: 800px;
+  max-width: 900px;
   width: 100%;
   margin: 0 auto;
 }
-.container-contact {
-  max-width: 800px;
+.container-about {
+  max-width: 900px;
   width: 100%;
   margin: 0 auto;
 }
@@ -417,7 +417,6 @@ footer {
 .table {
   border-collapse: collapse;
   border-spacing: 0;
-  width: 300px;
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 2rem;
@@ -425,10 +424,15 @@ footer {
 table,
 td,
 th {
-  border: 5px solid black;
+  border: 2px dotted black;
   height: 40px;
   justify-content: center;
+  width: 600px;
 }
+th {
+  background-color: #258EA6;
+  color: white;
+} 
 .container-about {
   max-width: 100%;
   margin: 0 auto;
