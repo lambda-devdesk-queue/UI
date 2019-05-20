@@ -36,7 +36,8 @@
 
         <header class="intro">
             <!-- image code here -->
-            
+
+            <!-- created DOM event of clicking on text and text will change-->
             <div class="students">
                 <h2 onclick="this.innerHTML='Go DevDeskQue!'">Students deserve MORE</h2>
             </div>
@@ -44,6 +45,7 @@
             <p>Students at Lambda School need a place where they can escalate their concerns and receive help.  DevDeskQue allows an admin to manage help desk tickets that come in from Lambda School Students.  In addition, it allows students (2nd user type) to submit a ticket, categorize it and post it to the help channel. </p>
         </header>
 
+        <!-- created DOM event of clicking on text and text will change-->
         <div class="mid-content-header">
             <h2 onclick="this.innerHTML='DevDeskQue is a wise choice!'">Reasons to choose DevDeskQue</h2>
         </div>
@@ -117,10 +119,19 @@
 
                 <p>RESPONSIVE - we guarantee every ticket received will be reviewed, worked on and completed within 24 hrs</p>
 
-                <a href="https://youthful-thompson-dec568.netlify.com/">
+                <!--Event Listener by clicking on button will show content-->
+                
+                <a href="https://devdeskque-team.netlify.com/">
                 <div class="btn">
                     Log-In
                 </div></a>
+                <script>
+                    document.getElementsByClassName(".btn").addEventListener("click", myFunction);
+
+                    function myFunction(){
+                        alert ("Great choice!");
+                    }
+                </script>
             </div>
 
             <div class="lambda-img">
