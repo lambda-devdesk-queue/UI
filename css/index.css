@@ -143,6 +143,7 @@ h5 {
 }
 h2 {
   font-size: 3.2rem;
+
 }
 h3 {
   font-size: 2.8rem;
@@ -165,7 +166,12 @@ p {
   margin-left: 10px;
   margin-bottom: 10px;
 }
-
+.students h2:hover {
+  color: yellowgreen;
+}
+.mid-content-header h2:hover {
+  color: yellowgreen;
+}
 nav {
   width: 100%;
   display: flex;
@@ -444,6 +450,7 @@ th {
   width: 600px;
   text-align: center;
   margin-right: 10px;
+  margin-top: 20px;
 }
 th {
   background-color: #258EA6;
@@ -451,11 +458,7 @@ th {
 } 
 .container-about {
   max-width: 100%;
-  margin: 0 auto;
-  display: flex;
 }
 .gurus {
-  display: flex;
-  width: 100%;
   flex-direction: row;
 }
