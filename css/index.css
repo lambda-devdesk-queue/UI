@@ -191,18 +191,18 @@ nav .nav h3 {
   margin: 8px 0;
   margin-bottom: 40px;
 }
-nav .nav .main-header .navigation {
+nav .nav .navigation {
   width: 80%;
   display: flex;
   justify-content: space-evenly;
   padding: 5px 0;
 }
-nav .nav .main-header .navigation a {
+nav .nav .navigation a {
   color: black;
   font-size: 2rem;
 }
-nav .nav .main-header .navigation a:hover {
-  text-decoration: none;
+nav .nav .navigation a:hover {
+  text-decoration: underline;
   background-color: #258EA6;
 }
 nav {
@@ -237,6 +237,7 @@ nav .nav-about .navigation-about a {
   font-size: 2rem;
 }
 nav .nav-about .navigation-about a:hover {
+  text-decoration: underline;
   background-color: #258EA6;
 }
 footer {
