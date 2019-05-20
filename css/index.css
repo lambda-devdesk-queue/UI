@@ -388,6 +388,7 @@ footer {
 .home .lambda .lambda-text .btn:hover {
   background-color: #140606;
   color: #37f376;
+  cursor: pointer;
 }
 @media only screen and (max-width: 500px) {
   .home .lambda .lambda-text .btn {
@@ -402,10 +403,12 @@ footer {
     justify-content: center;
     background-color: #258EA6;
     color: white;
+    cursor: pointer;
   }
   .home .lambda .lambda-text .btn:hover {
     background-color: #140606;
     color: #37f376;
+    cursor: pointer;
   }
 }
 .home .lambda .lambda {
@@ -428,6 +431,9 @@ footer {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 2rem;
+  display: flex;
+  margin: 0 2% 20px;
+  justify-content: space-around;
 }
 table,
 td,
@@ -437,6 +443,7 @@ th {
   justify-content: center;
   width: 600px;
   text-align: center;
+  margin-right: 10px;
 }
 th {
   background-color: #258EA6;
