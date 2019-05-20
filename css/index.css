@@ -105,7 +105,7 @@ section {
   display: block;
 }
 body {
-  line-height: 1.6;
+  line-height: 1.4;
 }
 ol,
 ul {
@@ -148,31 +148,18 @@ h3 {
   font-size: 2.8rem;
 }
 p {
-  font-size: 1.8rem;
-  line-height: 1.8;
+  font-size: 1.6rem;
+  line-height: 1.4;
 }
 .container {
-  max-width: 950px;
+  max-width: 800px;
   width: 100%;
   margin: 0 auto;
 }
-.container-about {
-  max-width: 950px;
-  display: flex;
+.container-contact {
+  max-width: 800px;
   width: 100%;
   margin: 0 auto;
-}
-.students h2 {
-  margin-left: 10px;
-}
-.students p {
-  margin-top: 10px;
-}
-.mid-content-header h2 {
-  margin-left: 10px;
-}
-.bottom-content-lambda h2 {
-  margin-left: 10px;
 }
 nav {
   width: 100%;
@@ -180,6 +167,11 @@ nav {
   flex-direction: row;
   justify-content: space-around;
   background-color: lightgray;
+}
+@media only screen and (max-width: 500px) {
+  nav {
+    width: 80%;
+  }
 }
 nav .nav {
   width: 800px;
@@ -199,18 +191,18 @@ nav .nav h3 {
   margin: 8px 0;
   margin-bottom: 40px;
 }
-nav .nav .navigation {
+nav .nav .main-header .navigation {
   width: 80%;
   display: flex;
   justify-content: space-evenly;
   padding: 5px 0;
 }
-nav .nav .navigation a {
+nav .nav .main-header .navigation a {
   color: black;
   font-size: 2rem;
 }
-nav .nav .navigation a:hover {
-  text-decoration: underline;
+nav .nav .main-header .navigation a:hover {
+  text-decoration: none;
   background-color: #258EA6;
 }
 nav {
@@ -245,7 +237,6 @@ nav .nav-about .navigation-about a {
   font-size: 2rem;
 }
 nav .nav-about .navigation-about a:hover {
-  text-decoration: underline;
   background-color: #258EA6;
 }
 footer {
@@ -324,10 +315,10 @@ footer {
   color: white;
   border: 2px solid black;
   border-spacing: 5px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .home .app-features {
   padding-right: 4%;
@@ -384,13 +375,10 @@ footer {
   justify-content: center;
   background-color: #258EA6;
   color: white;
-  cursor: pointer;
 }
 .home .lambda .lambda-text .btn:hover {
   background-color: #140606;
   color: #37f376;
-  cursor: pointer;
-
 }
 @media only screen and (max-width: 500px) {
   .home .lambda .lambda-text .btn {
@@ -405,14 +393,10 @@ footer {
     justify-content: center;
     background-color: #258EA6;
     color: white;
-    cursor: pointer;
-
   }
   .home .lambda .lambda-text .btn:hover {
     background-color: #140606;
     color: #37f376;
-    cursor: pointer;
-
   }
 }
 .home .lambda .lambda {
@@ -432,6 +416,7 @@ footer {
 .table {
   border-collapse: collapse;
   border-spacing: 0;
+  width: 300px;
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 2rem;
@@ -439,16 +424,14 @@ footer {
 table,
 td,
 th {
-  border: 2px dotted black;
+  border: 5px solid black;
   height: 40px;
   justify-content: center;
-  text-align: center;
-  width: 600px;
-
 }
-th {
-  background-color: #258EA6;
-  color: white;
+.container-about {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
 }
 .gurus {
   display: flex;
