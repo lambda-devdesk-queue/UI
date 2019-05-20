@@ -457,10 +457,8 @@ th {
   color: white;
 } 
 .container-about {
-  width: 100%;
+  max-width: 100%;
 }
 .gurus {
-  display: flex;
-  margin: 0 2% 20px;
   flex-direction: row;
 }
